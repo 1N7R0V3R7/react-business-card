@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    .infoButton {
+        @apply flex justify-center items-center rounded-md h-8;
+    }
+    .component {
+        @apply text-white px-10 mt-6 text-2xl font-bold;
+    }
+    .content {
+        @apply text-xs font-normal text-[#d5d4d8];
+    }
+    .iconContainer {
+        @apply bg-[#918E9B] rounded-md p-1.5;
+    }
+}
